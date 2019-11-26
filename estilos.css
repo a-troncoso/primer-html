@@ -1,7 +1,35 @@
 body {
-  background-color: aquamarine;
+  margin: 0;
+}
+ 
+main {
+  display: block;
 }
 
-h1 {
-  font-size: 24px;
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: 60% auto;
+}
+
+header, section, footer, article {
+  border: 1px solid gray;
+}
+
+.comentarios {
+  /* max-width: 500px; */
+  display: grid;
+  margin: 0 auto;
+  row-gap: 15px;
+}
+
+.comentario {
+  width: 300px;
+}
+
+.lista-navegacion {
+  list-style-type: none;
+}
+
+.lista-navegacion li {
+  display: inline-block;  
 }
